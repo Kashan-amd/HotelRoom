@@ -20,6 +20,7 @@ class Hotel {
 
         void display_rooms() {}
         void book_room() {}
+        void view_details() {}
 };
 
 int main{
@@ -39,6 +40,7 @@ int main{
     cout << "Available Rooms:" << endl;
     hotel.display_rooms();
     hotel.book_room();
+    hotel.view_details();
 
     return 0;
 
