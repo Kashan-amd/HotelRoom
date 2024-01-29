@@ -10,6 +10,12 @@ struct Room {
     int availability;
 };
 
+struct Payment{
+	string currency;
+	double ammount;
+	string gateway;
+};
+
 class Hotel {
     public:
         string name;
@@ -22,6 +28,8 @@ class Hotel {
         void book_room() {}
         void view_details() {}
         void search_hotels() {}
+        
+        void payment_process() {}
 };
 
 int main{
@@ -43,6 +51,8 @@ int main{
     hotel.book_room();
     hotel.view_details();
 	hotel.search_hotels();
+	hotel.payment_process();
+	
     return 0;
 
 }
