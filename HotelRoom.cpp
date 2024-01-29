@@ -21,6 +21,7 @@ class Hotel {
         void display_rooms() {}
         void book_room() {}
         void view_details() {}
+        void search_hotels() {}
 };
 
 int main{
@@ -41,7 +42,7 @@ int main{
     hotel.display_rooms();
     hotel.book_room();
     hotel.view_details();
-
+	hotel.search_hotels();
     return 0;
 
 }
